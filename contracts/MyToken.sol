@@ -11,6 +11,6 @@ contract MyToken is ERC721, Ownable {
     {}
 
     function safeMint(address to, uint256 tokenId) public onlyOwner {
-        _safeMint(to, tokenId);
+        _safeMint(to, tokenId);//test
     }
 }
