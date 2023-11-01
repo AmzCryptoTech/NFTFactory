@@ -1,0 +1,44 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IBaseToken.sol": "IBaseToike"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IBaseToken.sol": {
+			"keccak256": "0xee04667c133254fc90d8af2576378a1578eb48876695161917c1a86da19d7f49",
+			"urls": [
+				"bzz-raw://242bb5bd7c7a6dd0de708a79fd6b67880f77255fc69fbbea203944d68d06de1c",
+				"dweb:/ipfs/QmUMEWqeCMX2uFbBPNqrVFvFthBDQyif6jLqzJdvwbaa4u"
+			]
+		}
+	},
+	"version": 1
+}

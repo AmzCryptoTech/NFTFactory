@@ -1,0 +1,69 @@
+{
+	"compiler": {
+		"version": "0.8.21+commit.d9974bed"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "image",
+						"type": "string"
+					},
+					{
+						"internalType": "uint256",
+						"name": "supply",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "mintPrice",
+						"type": "uint256"
+					}
+				],
+				"name": "setup",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/interfaces/IBaseToken.sol": "IBaseToken"
+		},
+		"evmVersion": "paris",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": true,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/interfaces/IBaseToken.sol": {
+			"keccak256": "0x9e762d6db1802bd26835e2f661f31d8784f936ba82122fb5ce488d06c0b01af5",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://fce596778753a641e235c2b4d3abc036f78ac24a29fbd8902f9603f7edc181e7",
+				"dweb:/ipfs/QmZPed43Sga5DpPCeixEZVaRpRLe4xNebAHp38UmvsGkPL"
+			]
+		}
+	},
+	"version": 1
+}
